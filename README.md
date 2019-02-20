@@ -5,7 +5,9 @@
 这是一个封装完整的二级菜单栏View
 
 
-String[] parentContent = {"父级一","父级二","父级三"};
+
+
+    String[] parentContent = {"父级一","父级二","父级三"};
         String[][] childContent = {{"子级1_1","子级1_2","子级1_3"},{"子级2_1","子级2_2","子级2_3"},{"子级3_1","子级3_2","子级3_3"}};
         ISpinnerConfig mISpinnerConfig = new ISpinnerConfig(this,mDisplayMetrics.widthPixels,500)
                 .addParentContent(parentContent)
